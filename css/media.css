@@ -1,0 +1,174 @@
+@media(max-width:1190px) {
+    .container {
+        max-width: 960px;
+    }
+    .content__item {
+        max-width: 220px;
+        margin-bottom: 20px;
+    }
+    .content__item img {
+        max-width: 220px;
+        height: 150px;
+    }
+    .item__desc {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:985px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media(max-width:950px) {
+    .content__inner {
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width:880px) {
+    .footer__inner {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo__item {
+        text-align: center !important;
+    }
+    .footer__text {
+        max-width: 100%;
+    }
+    .footer__socials {
+        margin: 0 auto;
+    }
+    .footer__item {
+        text-align: left;
+    }
+}
+
+@media(max-width:860px) {
+    .header__nav {
+        max-width: 430px;
+    }
+    .header {
+        padding-top: 15px;
+    }
+}
+
+@media(max-width:729px) {
+    .content__item {
+        max-width: 278px;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .content__item img {
+        max-width: 278px;
+        height: 174px;
+    }
+    .header__logo {
+        max-width: 160px;
+    }
+    .info__wrapper {
+        width: 40%;
+    }
+}
+
+@media(max-width:620px) {
+    .item__text {
+        display: none;
+    }
+    h5.item__name {
+        display: block;
+        text-align: center;
+        color: #fff;
+    }
+    .item__more.button {
+        display: block;
+    }
+    .content__inner {
+        margin-bottom: 35px;
+        margin-top: 35px;
+    }
+    .content__item {
+        max-width: 250px;
+    }
+    .content__item img {
+        max-width: 250px;
+        height: 174px;
+        border-radius: 20px;
+    }
+    .content__title {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 26px;
+    }
+    .content__title::after {
+        width: 134px;
+    }
+    .header__logo {
+        max-width: 107px;
+    }
+    .footer__nav {
+        flex-direction: column-reverse;
+    }
+    .form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .form button {
+        margin: 0 auto;
+    }
+    .info__wrapper {
+        width: 100%;
+    }
+    .footer__copyright {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .copyright__text {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 590px) {
+    .hamburger-menu {
+        display: block;
+    }
+    .header__nav {
+        display: none;
+    }
+}
+
+@media(max-width:582px) {
+    .content__item {
+        max-width: 200px;
+    }
+    .content__item img {
+        max-width: 200px;
+        height: 150px;
+    }
+    .content__inner {
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:450px) {
+    .content__item {
+        max-width: 145px;
+    }
+    .content__item img {
+        max-width: 145px;
+        height: 145px;
+    }
+    .team__img {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .container {
+        padding: 0 10px;
+    }
+}
